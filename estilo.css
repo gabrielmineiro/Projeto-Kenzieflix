@@ -1,0 +1,55 @@
+.fundo{
+    background:#161515;height: 600px;width: 1000px; margin-left: 20%; margin-right: 20%;margin-top: 5%; border-radius: 5px;
+}
+body{
+    background-color: black;
+}
+#logo{
+    width: 219px; height: 58px;margin-top: 20px; margin-left: 37%;
+}
+p{ font-family: 'IBM Plex Sans'; font-size: 28px; color: white; width: 334px; height: 42px; margin-left: 339px ; font-weight: 500;
+    line-height: 100px;
+}
+.container{
+    display: flex; width: 700px;margin-top: 75px; margin-left: 150px; flex-direction: row; justify-content: space-between;
+}
+.usuario img{
+    width: 160px; height: 160px; border-radius: 5px; 
+}
+#usuario1 {
+    background-image: url(avatar1.png); background-size: 190px;
+}
+#usuario1 img:hover{
+    visibility: hidden; transform-style:preserve-3d;
+}
+#usuario2 {
+    background-image: url(terceiro.png); background-size: 190px;
+}
+#usuario2 img:hover{
+    visibility: hidden; transform-style:preserve-3d;
+}
+#usuario3 {
+    background-image: url(segundo.png); background-size: 190px;
+}
+#usuario3 img:hover{
+    visibility: hidden; transform-style:preserve-3d;
+}
+.usuario{
+    width: 160px; height: 160px; border-radius: 5px;  background:#1E1E20
+}
+.usuario #circulo{
+    width: 74px;height: 74px; margin-top: 30%;margin-left: 25%; margin-right: 50%; margin-bottom: 37px; opacity: 0.5; background:#1E1E20
+}
+.usuario #circulo:hover{
+    opacity: 1;
+}
+legend{
+    color: #9C9C9C; text-align:center; font-family: 'IBM Plex Sans'; font-size: 14px;
+}
+button{
+    width: 206px; height: 50px; border-radius: 8px; border: solid 1px white; background-color: #161515; color: white;
+    margin-top: 100px;margin-left: 40%; margin-right: 50%;
+}
+button:hover{
+    background-color: white;color: #161515;
+}
